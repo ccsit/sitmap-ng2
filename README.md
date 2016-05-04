@@ -1,4 +1,6 @@
-# Angular 2 QuickStart Source
+# SITMap 2.0 
+
+![sitmap2](https://github.com/ccist/sitmap-ng2/raw/master/preview.png "SITMap 2.0")
 
 This repository holds the TypeScript source code of the [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.html),
 the foundation for most of the documentation samples and potentially a good starting point for your application.
@@ -11,43 +13,9 @@ It exists primarily to get you started quickly with learning and prototyping in 
 We are unlikely to accept suggestions about how to grow this QuickStart into something it is not.
 Please keep that in mind before posting issues and PRs.
 
-## Create a new project based on the QuickStart
-
-Clone this repo into new project folder (e.g., `my-proj`).
-```bash
-git clone  https://github.com/angular/quickstart  my-proj
-cd my-proj
-```
-
-We have no intention of updating the source on `angular/quickstart`.
-Discard everything "git-like" by deleting the `.git` folder.
-```bash
-rm -rf .git
-```
-
-### Create a new git repo
-You could [start writing code](#start-development) now and throw it all away when you're done.
-If you'd rather preserve your work under source control, consider taking the following steps.
-
-Initialize this project as a *local git repo* and make the first commit:
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-```
-
-Create a *remote repository* for this project on the service of your choice.
-
-Grab its address (e.g. *`https://github.com/<my-org>/my-proj.git`*) and push the *local repo* to the *remote*.
-```bash
-git remote add origin <repo-address>
-git push -u origin master
-```
 ## Install npm packages
 
 Install the npm packages described in the `package.json` and verify that it works:
-
-**Attention Windows Developers:  You must run all of these commands in administrator mode**
 
 ```bash
 npm install
@@ -59,8 +27,6 @@ then simultaneously re-compiles and runs the `lite-server`.
 Both the compiler and the server watch for file changes.
 
 Shut it down manually with Ctrl-C.
-
-You're ready to write your application.
 
 ### npm scripts
 
@@ -82,7 +48,6 @@ Here are the test related scripts:
 * `npm run e2e` - run protractor e2e tests, written in JavaScript (*e2e-spec.js)
 
 ## Testing
-
 The QuickStart documentation doesn't discuss testing. 
 This repo adds both karma/jasmine unit test and protractor end-to-end testing support.
 
@@ -112,7 +77,6 @@ restart it. No worries; it's pretty quick.
 The `HTML-Reporter` is also wired in. That produces a prettier output; look for it in `~_test-output/tests.html`.
 
 ### End-to-end (E2E) Tests
-
 **BEFORE RUNNING THE FIRST TEST** you must update the Selenium webdriver. Run `npm webdriver:update`.
 
 E2E tests are usually at the project root, above the `app` folder. 
