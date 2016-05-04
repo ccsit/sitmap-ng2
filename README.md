@@ -1,6 +1,6 @@
 # SITMap 2.0 
 
-![sitmap2](https://github.com/ccist/sitmap-ng2/raw/master/preview.png "SITMap 2.0")
+![sitmap2](https://raw.githubusercontent.com/ccsit/sitmap-ng2/master/preview.png "SITMap 2.0")
 
 This repository holds the TypeScript source code of the [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.html),
 the foundation for most of the documentation samples and potentially a good starting point for your application.
