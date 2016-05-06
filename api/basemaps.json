@@ -1,0 +1,33 @@
+[{
+  "id": "swisstopo-lm",
+  "name": "Carte nazionali",
+  "url": "http://geo.ti.ch",
+  "layer": "ch.swisstopo.swisstlm3d-karte-farbe",
+  "tileMatrixSet": "21781_27",
+  "format": "png",
+  "type": "wmts"
+}, {
+  "id": "swisstopo-bianconero",
+  "name": "Carte nazionali bianco nero",
+  "url": "http://geo.ti.ch",
+  "layer": "ch.swisstopo.pixelkarte-grau",
+  "tileMatrixSet": "21781_26",
+  "format": "jpeg",
+  "type": "wmts"
+}, {
+  "id": "swisstopo-colori",
+  "name": "Carte nazionali colore",
+  "url": "http://geo.ti.ch",
+  "layer": "ch.swisstopo.pixelkarte-farbe",
+  "tileMatrixSet": "21781_26",
+  "format": "jpeg",
+  "type": "wmts"
+}, {
+  "id": "swisstopo-ortofoto",
+  "name": "Ortofoto",
+  "url": "http://geo.ti.ch",
+  "layer": "ch.swisstopo.swissimage-product",
+  "tileMatrixSet": "21781_27",
+  "format": "jpeg",
+  "type": "wmts"
+}]

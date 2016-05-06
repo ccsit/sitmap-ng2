@@ -1,17 +1,14 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title>SITMap 2.0</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
-
-    <!-- Polyfill(s) for older browsers -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <script src="node_modules/es6-shim/es6-shim.min.js"></script>
-
     <script src="node_modules/zone.js/dist/zone.js"></script>
     <script src="node_modules/reflect-metadata/Reflect.js"></script>
     <script src="node_modules/systemjs/dist/system.src.js"></script>
-
     <script src="systemjs.config.js"></script>
     <script>
       System.import('app').catch(function(err){ console.error(err);  });
@@ -19,7 +16,6 @@
   </head>
 
   <body>
-    <header></header>
     <my-app>Loading...</my-app>
   </body>
 </html>
