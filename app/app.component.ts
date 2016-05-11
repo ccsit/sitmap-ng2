@@ -1,10 +1,10 @@
-import {Component} from '@angular/core';
-import {MapComponent} from './map.component';
-import {Navbar} from './components/navbar/navbar.component';
+import {Component}    from '@angular/core';
+import {Navbar}       from './components/navbar/navbar.component';
+import {MapComponent} from './components/map/map.component';
 
 @Component({
     selector: 'my-app',
-    directives: [MapComponent, Navbar],
+    directives: [Navbar, MapComponent],
     templateUrl: "app/app.component.html"
 })
 export class AppComponent { }

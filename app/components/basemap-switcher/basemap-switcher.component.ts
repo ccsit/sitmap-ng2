@@ -13,7 +13,7 @@ import {BasemapService} from './../../services/basemap-service/basemap-service'
 export class BasemapSwitcher {
 
   public basemaps;
-
+  
   constructor(private basemapService:BasemapService) {
 
     this.basemapService

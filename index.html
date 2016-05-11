@@ -4,18 +4,32 @@
     <title>SITMap 2.0</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://js.arcgis.com/4.0/esri/css/main.css">
+    <style>
+      html, body, #viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+
     <script src="node_modules/es6-shim/es6-shim.min.js"></script>
     <script src="node_modules/zone.js/dist/zone.js"></script>
     <script src="node_modules/reflect-metadata/Reflect.js"></script>
     <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="https://js.arcgis.com/4.0/"></script>
+    <script src="node_modules/esri-system-js/dist/esriSystem.js"></script>
     <script src="systemjs.config.js"></script>
-    <script>
-      System.import('app').catch(function(err){ console.error(err);  });
-    </script>
   </head>
 
   <body>
     <my-app>Loading...</my-app>
+
+    <!-- using esri-system-js: configure SystemJS, load Esri modules, and bootstrap the app -->
+    <script src="app/load.js"></script>
+
   </body>
 </html>
